@@ -1,0 +1,29 @@
+header {
+	background-color: #f4f4f4;
+}
+h1 {
+	display: center;
+}
+.navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #8B0000;
+	text-align: center;
+}
+.bar {
+	background-color: #8B0000;
+}
+
+
+
+.row {
+	display: flex;
+}
+.column {
+	flex: 50%;
+	padding:  5px;
+}
+footer {
+	text-align: center;
+}
