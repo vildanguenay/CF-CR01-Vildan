@@ -34,11 +34,25 @@
 }
 .row {
 	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+}
+.border {
+	height: 10px;
+	background-color: grey;
 }
 .column {
 	flex: 50%;
 	padding:  5px;
 }
+.thick {
+	font-weight: bold;
+	font-size: 45px;
+}
 footer {
 	text-align: center;
+}
+.end {
+	font-size: 30px;
 }
