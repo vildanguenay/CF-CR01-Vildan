@@ -15,8 +15,22 @@
 	display: inline;
 	font-size: 20px;
 }
+.listItem a {
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	margin-left: 15px; 
+}
+.bigHeader {
+	text-align: center;
+	font-size: 130px;
+}
 .bar {
-	background-color: #8B0000;
+	background-color: gray;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	padding-left: 15px;
 }
 .row {
 	display: flex;
