@@ -1,22 +1,23 @@
-header {
-	background-color: #f4f4f4;
+.header {
+	display: flex;
+	align-items: center;
 }
-h1 {
-	display: center;
+.navigation {
+	padding: 10px 0px 10px 0px;
 }
 .navigation ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	background-color: #8B0000;
-	text-align: center;
+}
+.listItem {
+	display: inline;
+	font-size: 20px;
 }
 .bar {
 	background-color: #8B0000;
 }
-
-
-
 .row {
 	display: flex;
 }
