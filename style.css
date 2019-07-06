@@ -1,5 +1,6 @@
 header {
 	background-color: #eaeaea;
+	padding-bottom: 20px;
 }
 .cfLogo {
 	vertical-align: middle;
@@ -40,7 +41,6 @@ header {
 	padding-top: 20px;
 }
 .row {
-	display: flex;
 	margin-left: auto;
 	margin-right: auto;
 	width: 1200px;
@@ -50,10 +50,15 @@ header {
 	background-color: grey;
 }
 .column {
-	padding:  5px;
+	padding: 5px;
+	width: 414px;
+	display: inline-block;
 }
 .column2 {
-	margin-left: 35px;
+	width: 414px;
+	vertical-align: top;
+	margin-left: 300px;
+	display: inline-block;
 }
 .thick {
 	font-weight: bold;
